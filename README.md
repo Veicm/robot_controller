@@ -19,7 +19,7 @@
 
 ✅ Support for multiple robot models (e.g. SMARS)
 
-✅ Real-time motion control
+✅ Real-time control
 
 ✅ communication via wifi
 
