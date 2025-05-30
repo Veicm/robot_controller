@@ -1,2 +1,2 @@
 # robot_controller
-A Gui programm wich is used to controll difrent types of robots. The robotlibrary is required.
+A Gui program which is used to control different types of robots. The [robotlibrary](https://github.com/Veicm/robotlibrary) is required.
