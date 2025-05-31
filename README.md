@@ -32,10 +32,15 @@
 ## Architecture
 
 ```text
-robot_controller/
-├── __main__.py          ⇨ Entry point launching the GUI
-├── ui.py                ⇨ GUI layout and controls (Tkinter)
-├── transmitter.py       ⇨ Communication handler
-├── robot/               ⇨ Robot models (via robotlibrary)
-└── README.md
-```
+[ Your PC ]
+   └── robot_controller/
+       ├── __main__.py          ⇨ GUI entry point
+       ├── ui.py                ⇨ GUI layout and control logic
+       └── transmitter.py       ⇨ Communication interface
+
+[ Your Robot ]
+   └── robotlibrary/
+       ├── network_control/
+       │   ├── connector.py     ⇨ connects the robot to wifi 
+       │   └── receiver.py      ⇨ receives information's and triggers certain actions
+       └── ...
