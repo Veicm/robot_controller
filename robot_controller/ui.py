@@ -1,6 +1,7 @@
 import customtkinter as ctk
-from transmitter import Transmitter
-from transmitter import TestTransmitter
+from .transmitter import Transmitter
+from .transmitter import TestTransmitter
+from .crawly import crawlyButtons
 
 class RobotController(ctk.CTk):
     def __init__(self):
@@ -117,7 +118,7 @@ class RobotController(ctk.CTk):
         self._clear_main_frame()
 
         self._top_bar()
-        self._crawly_buttons()
+        crawlyButtons()._crawly_buttons(self.main_content)
         self._debug_button()
         
         self.mainloop()

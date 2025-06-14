@@ -1,4 +1,4 @@
-from ui import RobotController
+from .ui import RobotController
 
 rc = RobotController()
 
